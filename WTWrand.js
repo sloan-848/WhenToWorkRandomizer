@@ -19,7 +19,7 @@ while(!allFound){
     foundIndeces.push(lastFound);
   }
 }
-var employees = ['Bryan Ahn', 'Zach Blandford', 'Ale Bliss', 'Zach Cain', 'Alex Cetnar', 'Usoshi Chatterjee', 'Mark Erdelac', 'Katie Goodge', 'Tanner Hawk', 'Rona Jiang', 'Dylan Kreitzer', 'Lauren March', 'Sarah McGee', 'Madison Montgomery', 'Tracy Rhodes', 'Brody Ritter', 'Amy Schnupp', 'Sheldon Shen', 'Will Sloan'];
+var employees = ['Bryan Ahn', 'Zach Blandford', 'Zach Cain', 'Alex Cetnar', 'Usoshi Chatterjee', 'Mark Erdelac', 'Katie Goodge', 'Tanner Hawk', 'Rona Jiang', 'Dylan Kreitzer', 'Lauren March', 'Madison Montgomery', 'Tracy Rhodes', 'Brody Ritter', 'Amy Schnupp', 'Sheldon Shen', 'Will Sloan', 'Evan Danish', 'Megan Dailey'];
 for ( var i = 0; i < foundIndeces.length; i++) {
   nBody = nBody.replace('Unassigned', employees[getRandom(employees.length)]);
 }
